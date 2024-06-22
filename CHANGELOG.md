@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.2](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/compare/v0.0.1...v0.0.2) - 2024-06-22
+- bonsai by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/3
+
 ## [v0.0.1](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/commits/v0.0.1) - 2024-06-22
 - Initial by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/1
 
