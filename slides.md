@@ -137,13 +137,13 @@ v0.72.0 → v0.113.2
 
 <Tweet id="1683029488907722752" scale="0.6" />
 
-
 ---
 
 # コントリビューター拡大  
 いつもありがとうございます！
 
-新たに5名のコントリビューターが増えました。
+新たに5名のコントリビューターが増えました。  
+特に積極的に機能追加していただいている HaRu さんありがとうございます！
 
 
 ---
@@ -238,7 +238,7 @@ runブックのyamlフォーマットでanchor指定が可能になりました
 ラベル指定して実行対象の絞り込みができるようになりました
 - [Add header for trace](https://github.com/k1LoW/runn/pull/645)  
 トレース用のヘッダーをリクエストに付与できるようになりました
-- [Append use cookie option](https://github.com/k1LoW/runn/pull/559)
+- [Append use cookie option](https://github.com/k1LoW/runn/pull/559)  
 Cookieをサポートしました
 
 ----
