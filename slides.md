@@ -96,13 +96,13 @@ transition: fade-out
 ---
 
 # runn開発者会議とは？
-runnとはAPIシナリオテストツールのOSSです。そのOSSの開発者会議となります
+runn とは API シナリオテストツールの OSS です。その OSS の開発者会議となります
 
-PHPerKaigi2023から始まるカンファレンスの廊下で繰り広げられるオフラインによる議論の場です。
+PHPerKaigi2023 から始まるカンファレンスの廊下で繰り広げられるオフラインによる議論の場です。
  
 <Tweet id="1184741983585103874" />
 
-runn というAPIシナリオテストツールの開発者である @k1Low さんと  
+runn という API シナリオテストツールの開発者である @k1Low さんと  
 私 @k2tzumi がツールの開発の方向性等を熱く議論しています
 
 ---
@@ -124,7 +124,7 @@ runn というAPIシナリオテストツールの開発者である @k1Low さ�
 
 1. 精力的なバージョンアップ  
 2. コントリビューター拡大  
-3. GitHub Start数増加  
+3. GitHub Start 数増加  
 4. メディア＆ブログ掲載拡大  
 5. ライブラリとして採用され始める
 
@@ -137,21 +137,21 @@ v0.72.0 → v0.113.2
 
 <Tweet id="1683029488907722752" scale="0.6" />
 
-
 ---
 
 # コントリビューター拡大  
 いつもありがとうございます！
 
-新たに5名のコントリビューターが増えました。
+新たに 5 名のコントリビューターが増えました。  
+特に積極的に機能追加していただいている HaRu さんありがとうございます！
 
 
 ---
 
 # GitHub Start数増加  
-3倍ぐらいに増えた
+3 倍ぐらいに増えた
 
-100ちょっと　→　384
+100 ちょっと　→　384
 <Transform :scale="0.6">
 <img src="/star-history-2024621.png"  />
 </Transform>
@@ -163,7 +163,7 @@ v0.72.0 → v0.113.2
 色々取り上げていただきありがとうございます！
 
 - [APIテストツール４選！開発者が語る各ツールの特徴と魅力](https://trident-qa.connpass.com/event/299308/)  
-runnm, Scenarigo, Karate, Postmanの開発者が集まるという貴重な会でした
+runnm, Scenarigo, Karate, Postman の開発者が集まるという貴重な会でした
 - [yamlでテストシナリオを書いてそのまま実行までできるAPIテストツールの新星 “runn” を試してみた](https://dev.classmethod.jp/articles/trying-runn/)  
 クラスメソッドさんに取り上げられて一気に認知が広まった感
 - [CI/CD Test Night #7](https://testnight.connpass.com/event/311263/)  
@@ -195,16 +195,16 @@ runnm, Scenarigo, Karate, Postmanの開発者が集まるという貴重な会�
 # 注目機能＆改善（1/3）
 
 - [Add jq path syntax support for excluding comparison targets in diff()/compare() functions.](https://github.com/k1LoW/runn/pull/936)  
-diff関数の比較対象を除外するパターンに jq コマンドのパス構文をサポートしました
+diff 関数の比較対象を除外するパターンに jq コマンドのパス構文をサポートしました
 - [Support --env-file option for loading environment variables from a file.](https://github.com/k1LoW/runn/pull/945)  
-runn実行時の環境変数をまとめてenvファイルで指定可能になりました
+runn 実行時の環境変数をまとめて env ファイルで指定可能になりました
 - [Add exec.background: for executing commands in the background. ](https://github.com/k1LoW/runn/pull/943)  
-コマンド実行時にバックグラウンド実行できるようになりました
+コマンド実行時にバックグラウンド実行が可能となりました
 - [Replace the buildTree() method by injected expr tracing approach](https://github.com/k1LoW/runn/pull/917)  
-yamlフォーマット内の評価式のコメント構文で `#` が使えなくなりました  
+yaml フォーマット内の評価式のコメント構文で `#` が使えなくなりました  
 `//` をご利用ください
 - [Add dump.disableTrailingNewline: for disabling trailing newline in dump output](https://github.com/k1LoW/runn/pull/931)  
-dump runner実行時に最後の文字列に改行コードをつけるようにしました。  
+dump runner 実行時に最後の文字列に改行コードをつけるようにしました。  
 オプションで以前の挙動に戻すこともできます
 
 ---
@@ -212,41 +212,41 @@ dump runner実行時に最後の文字列に改行コードをつけるように
 # 注目機能＆改善（2/3）
 
 - [Use github.com/pb33f/libopenapi](https://github.com/k1LoW/runn/pull/827)  
-OpenAPIのvalidatorを行うライブラリをpb33fに変更しました
+OpenAPI の validator を行うライブラリを pb33f に変更しました
 - [Add builtin functions for ID generation to faker.*](https://github.com/k1LoW/runn/pull/811)  
-fakerでUUIDを生成するビルトイン関数が増えました
+faker で UUID を生成するビルトイン関数が増えました
 - [Add --attach option for debugging or step execution](https://github.com/k1LoW/runn/pull/817)  
 ステップ実行がサポートされました
 - [Support gist://](https://github.com/k1LoW/runn/pull/787)  
-gistとして登録されたrunnブックを直接実行できるようになりました
+gist として登録された runn ブックを直接実行できるようになりました
 - [Keep loaded OpenAPI documents](https://github.com/k1LoW/runn/pull/769)  
-OpenAPIの仕様書をキャッシュするようにしてパフォーマンス改善しました
+OpenAPI の仕様書をキャッシュするようにしてパフォーマンス改善しました
 - [Support using YAML's anchors and aliases in runbooks](https://github.com/k1LoW/runn/pull/722)  
-runブックのyamlフォーマットでanchor指定が可能になりました
+run ブックの yaml フォーマットで anchor 指定が可能になりました
 
 ---
 
 # 注目機能＆改善（3/3）
 
 - [Introduce pick() expr built-in function](https://github.com/k1LoW/runn/pull/714)  
-ビルトイン関数にpickが追加されました。jsonのノードを一部のみにすることができます
+ビルトイン関数に pick が追加されました。json のノードを一部のみにできます
 - [Introduce omit() expr built-in function](https://github.com/k1LoW/runn/pull/719)  
-ビルトイン関数にomitが追加されました。jsonのノードを省略することができます
+ビルトイン関数に omit が追加されました。json のノードを省略できます
 - [Add runbook ID (Full) and elapsed time to result.json](https://github.com/k1LoW/runn/pull/678)  
-シナリオ実行時にユニークなIDを降るようになりました
+シナリオ実行時にユニークな ID を降るようになりました
 - [Support labels: section in runbooks](https://github.com/k1LoW/runn/pull/683)  
 ラベル指定して実行対象の絞り込みができるようになりました
 - [Add header for trace](https://github.com/k1LoW/runn/pull/645)  
-トレース用のヘッダーをリクエストに付与できるようになりました
-- [Append use cookie option](https://github.com/k1LoW/runn/pull/559)
-Cookieをサポートしました
+リクエストにトレース用のヘッダーを付与できます
+- [Append use cookie option](https://github.com/k1LoW/runn/pull/559)  
+Cookie をサポートしました
 
 ----
 
 # 議題
 今回の主に話をしたいこと([runn開発者会議スレッド](https://zenn.dev/katzumi/scraps/f00a2d3e177b77) より抜粋)
 
-- [2024年中にv1にしたい](https://zenn.dev/katzumi/scraps/f00a2d3e177b77#comment-3343da51e61f06)
+- [2024年中にはv1にしたい](https://zenn.dev/katzumi/scraps/f00a2d3e177b77#comment-3343da51e61f06)
 - [失敗したシナリオを一覧表示したい](https://zenn.dev/katzumi/scraps/f00a2d3e177b77#comment-7054a8d20effdf)
 - [ランブック単位でのクリーンアップ処理](https://zenn.dev/katzumi/scraps/f00a2d3e177b77#comment-47ab501dd23dd2)
 - [シナリオテスト自体をドキュメント化したい](https://zenn.dev/katzumi/scraps/f00a2d3e177b77#comment-6b6d90f619fc43)
