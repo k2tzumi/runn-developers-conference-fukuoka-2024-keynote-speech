@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.1](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/commits/v0.0.1) - 2024-06-22
+- Initial by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/1
+
 ## [v0.1.3](https://github.com/k2tzumi/slidev-boilerplate/compare/v0.1.2...v0.1.3) - 2024-06-08
 - bump up version by @k2tzumi in https://github.com/k2tzumi/slidev-boilerplate/pull/20
 
