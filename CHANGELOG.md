@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.4](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/compare/v0.0.3...v0.0.4) - 2024-06-30
+- Fix title by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/7
+
 ## [v0.0.3](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/compare/v0.0.2...v0.0.3) - 2024-06-22
 - Fix backgroud by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/5
 
