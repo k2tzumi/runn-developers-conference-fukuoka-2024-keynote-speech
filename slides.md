@@ -12,7 +12,7 @@ info: |
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
+title: "runn開発者会議福岡2024"
 mdc: true
 addons:
   - "@katzumi/slidev-addon-qrcode"
