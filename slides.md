@@ -23,7 +23,7 @@ addons:
 # runn開発者会議福岡2024
 
 [PHPカンファレンス福岡2024 / アンカンファレンス](https://phpcon.fukuoka.jp/2024/)　May 22, 2024.  
-v0.0.4  
+v0.0.5  
 @katzumi(かつみ)
 
 <div class="pt-12">
