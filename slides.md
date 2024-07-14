@@ -13,9 +13,9 @@ transition: slide-left
 title: runn開発者会議福岡2024
 mdc: true
 addons:
-  - "@katzumi/slidev-addon-qrcode"
-  - "slidev-addon-components"
-  - "slidev-addon-rabbit"
+  - '@katzumi/slidev-addon-qrcode'
+  - slidev-addon-components
+  - slidev-addon-rabbit
 ---
 
 # runn開発者会議福岡2024
