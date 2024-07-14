@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.8](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/compare/v0.0.7...v0.0.8) - 2024-07-14
+- Fix publish by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/15
+
 ## [v0.0.7](https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/compare/v0.0.6...v0.0.7) - 2024-07-14
 - Fix release by @k2tzumi in https://github.com/k2tzumi/runn-developers-conference-fukuoka-2024-keynote-speech/pull/13
 
