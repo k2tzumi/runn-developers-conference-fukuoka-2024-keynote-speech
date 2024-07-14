@@ -5,10 +5,8 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  PHPカンファレンス福岡2024 / LTアワー　　
+  https://phpcon.fukuoka.jp/2024/
 drawings:
   persist: false
 transition: slide-left
@@ -22,7 +20,7 @@ addons:
 
 # runn開発者会議福岡2024
 
-[PHPカンファレンス福岡2024 / アンカンファレンス](https://phpcon.fukuoka.jp/2024/)　May 22, 2024.  
+[PHPカンファレンス福岡2024 / LTアワー](https://phpcon.fukuoka.jp/2024/)　May 22, 2024.  
 v0.0.5  
 @katzumi(かつみ)
 
@@ -108,14 +106,13 @@ runn という API シナリオテストツールの開発者である @k1Low �
 ---
 
 # runn開発者会議の歴史
-今回は７回目
+今回は 6 回目
 
 1. [PHPerKaigi2023](https://zenn.dev/katzumi/articles/runn-developers-conference-in-phperkaigi2023)
 1. [PHPカンファレンス福岡2023](https://zenn.dev/katzumi/articles/phpcon-fukuoka-2023-talk-impression)
 1. [Go Conference mini 2023 Winter IN KYOTO](https://kyotogo.connpass.com/event/285351/)
 1. [PHPerKaigi2024](https://phperkaigi.jp/2024/)
 1. [Go Conference 2024](https://gocon.connpass.com/event/314876/)
-1. [PHPerKaigi2024](https://phperkaigi.jp/2024/)
 1. <span v-mark.circle.red="1">[PHPカンファレンス福岡2024](https://phpcon.fukuoka.jp/2024/)</span>
 
 ---
